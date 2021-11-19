@@ -14,7 +14,7 @@ inputs:
     default: profile.xml
 runs:
   using: docker
-  image: 'docker://ghcr.io/naokitsuchiya/asd-action:latest'
+  image: 'ghcr.io/naokitsuchiya/asd-action:latest'
   args:
     - ${{ inputs.config }}
     - ${{ inputs.profile }}
