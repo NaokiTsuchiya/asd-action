@@ -6,6 +6,10 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
+  who-to-greet2:
+    description: 'Who to greet2'
+    required: true
+    default: 'greet'
 outputs:
   time: # id of output
     description: 'The time we greeted you'
@@ -14,3 +18,4 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.who-to-greet }}
+    - ${{ inputs.who-to-greet2 }}
