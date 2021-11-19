@@ -1,5 +1,5 @@
 # action.yml
-name: app-state-diagram
+name: app-state-diagram-test
 description: Produces a full application state diagram and hyperlinked documentation from ALPS profile
 branding:
   icon: 'anchor'
